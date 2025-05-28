@@ -13,7 +13,7 @@ This is a Visa Immigration website built using React and EmailJS for handling co
 
 - **React**: JavaScript library for building user interfaces.
 - **EmailJS**: Service to send emails directly from the client-side using JavaScript.
-- **Twaiwind css**: For building the website layout and styling.
+- **Tailwind Css**: For building the website layout and styling.
 - 
 ## Setup Instructions
 npm run dev
