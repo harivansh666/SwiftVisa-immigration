@@ -1,0 +1,26 @@
+/* Add to your HeroSection.css */
+
+.airplane-background {
+  position: absolute;
+  top: 30%; /* Adjust the top position as needed */
+  left: -150px; /* Start the airplane off-screen */
+  width: 120px; /* Adjust based on your airplane image size */
+  height: auto;
+  background-image: url("D:\my projects\agent 1\client\src\assets\man reamove bg.png"); /* Replace with your airplane image path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: flyAcross 10s linear infinite;
+}
+
+@keyframes flyAcross {
+  0% {
+    left: -150px; /* Airplane starts from the left */
+  }
+  50% {
+    left: 50%; /* Airplane reaches the center */
+    transform: translateX(-50%); /* Center the airplane */
+  }
+  100% {
+    left: 100vw; /* Airplane moves off to the right */
+  }
+}
